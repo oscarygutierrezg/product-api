@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  product-api:
+    container_name: product-api
+    image: product-api-server:latest
+    expose:
+      - 8081
+    ports:
+      - 8081:8081
